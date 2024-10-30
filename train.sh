@@ -2,9 +2,9 @@ mkdir -p results
 mkdir -p checkpoints
 
 dataset=Fashion-MNIST  #"MNIST" "Fashion-MNIST"
-attack=backdoor  #"backdoor" "krum" "modelpoisoning" "noattack" "trimmedmean"
+attack=backdoor  #"backdoor" "noattack"
 round=50
-agg=ex_noregret  #"average" "bulyankrum" "bulyanmedian" "bulyantrimmedmean" "ex_noregret" "filterl2" "krum" "median" "mom_ex_noregret" "mom_filterl2" "trimmedmean"
+agg=ex_noregret  #"average" "ex_noregret" "filterl2"
 mu=0.01
 
 # without PA
