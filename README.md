@@ -47,4 +47,7 @@ Alternatively, you can run
 ```
 to run both the methods using the same shared parameter setting.
 
+## Acknowledgement
+
+We would like to thank the authors of [secure-robust-federated-learning](https://github.com/wanglun1996/secure-robust-federated-learning), upon which this repo is built on.
 
