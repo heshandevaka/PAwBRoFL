@@ -1,0 +1,13 @@
+current path: saved_models/model_fashion_Oct.15_18.32.47
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+Loaded parameters from saved model: LR is 0.1 and current epoch is 71
+create model done
+Poisoned following participants: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+We use following environment for graphs:  Fashion_filterL2
+Server Epoch:71 choose agents : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 77, 21, 34, 68, 32, 31, 69, 81, 42, 92, 88, 51, 49, 61, 56, 39, 97, 27, 23, 29, 82, 38, 53, 54, 99, 30, 50, 90, 37, 75, 59, 67, 22, 66, 24, 80, 95, 36, 79, 25, 94, 55, 63, 58, 20, 62, 72, 41, 76, 85, 52, 84, 60, 65, 78, 64, 28, 40, 43, 87, 73, 83, 44, 45, 70, 48, 98, 89, 86, 33, 46, 96, 35, 91, 26, 47, 71, 93, 74, 57].
+poison local model 0 index 0 
+poison_now
