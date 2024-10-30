@@ -1,6 +1,6 @@
 # PAwBRoFL
 
-This repository contains preliminary invesitgations into how to incorportate performance aware model updates to the global model using local client gradients, while mitigating attacks in federated learning setting.
+This repository contains preliminary investigations into how to incorporate performance aware model updates to the global model using local client gradients while mitigating attacks in the federated learning setting.
 
 ### Dependencies
 
@@ -10,7 +10,7 @@ This repository contains preliminary invesitgations into how to incorportate per
 
 ### Installation
 
-We are using conda environements for convinient package management. Create a conda environement as follows.
+We are using conda environments for convenient package management. Create a conda environment as follows.
 
 ```bash
 conda create -n pawbrofl python=3.7.11
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-Set the following parameters as needed. An example parameter setting is given below. More paramaeters that determine the problem setup can be found in `simulate.py`
+Set the following parameters as needed. An example parameter setting is given below. More parameters that determine the problem setup can be found in `simulate.py`
 ```bash
 dataset=Fashion-MNIST  # Options: "MNIST" "Fashion-MNIST"
 attack=backdoor  # Options: "backdoor" "noattack"
@@ -45,9 +45,9 @@ Alternatively, you can run
 ```bash
 ./train.sh
 ```
-to run both the methods using the same shared parameter setting.
+to run both methods using the same shared parameter setting.
 
 ## Acknowledgement
 
-We would like to thank the authors of [secure-robust-federated-learning](https://github.com/wanglun1996/secure-robust-federated-learning), upon which this repo is built on.
+We would like to thank the authors of [secure-robust-federated-learning](https://github.com/wanglun1996/secure-robust-federated-learning), upon which this repo is built.
 
